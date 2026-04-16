@@ -41,7 +41,7 @@ export default function Navbar() {
             <img
               src="https://i.ibb.co/cSyYSksW/lumense2.png"
               alt="Lumense"
-              className="h-18 md:h-24 w-auto"
+              className="h-12 md:h-24 w-auto"
             />
           </a>
 

@@ -3,20 +3,20 @@ import { motion, useInView } from 'framer-motion';
 import SectionHeader from './SectionHeader';
 
 const STATS = [
-  { value: '50+', label: 'Genomförda projekt' },
-  { value: '30+', label: 'Nöjda kunder' },
+  { value: '15+', label: 'Genomförda projekt' },
+  { value: '15+', label: 'Nöjda kunder' },
   { value: '3+', label: 'År av erfarenhet' },
 ];
 
 const TESTIMONIALS = [
   {
-    quote: 'Lumense levererade en identitet som överskred alla förväntningar. Professionellt, kreativt och med en känsla för detaljer som är sällsynt.',
-    author: 'Marcus Lindberg',
+    quote: 'Placeholder text for testimonial. Lumense levererade inte bara en fantastisk design, utan också en strategi som verkligen fångade vår vision.',
+    author: 'John Doe',
     company: 'Nordvik Solutions',
   },
   {
-    quote: 'Från koncept till leverans var hela processen smidig. Resultatet? Ett varumärke som verkligen sticker ut.',
-    author: 'Sara Eklund',
+    quote: 'Placeholder text for testimonial. Samarbetet med Lumense var en game-changer för vårt varumärke. Deras kreativa process och uppmärksamhet på detaljer resulterade i en identitet som verkligen sticker ut.',
+    author: 'Jane Doe',
     company: 'Ether Studio',
   },
 ];

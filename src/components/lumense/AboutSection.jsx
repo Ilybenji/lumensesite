@@ -39,7 +39,7 @@ export default function AboutSection() {
               className="pt-8 pr-8 pb-8 border-r border-vapor/10 last:border-r-0"
             >
               <h3 className="font-heading font-normal text-stellar text-lg mb-3">{comp.title}</h3>
-              <p className="font-body font-light text-vapor text-sm leading-relaxed">{comp.desc}</p>
+              <p className="font-body font-light text-stellar/80 text-sm leading-relaxed">{comp.desc}</p>
             </motion.div>
           ))}
         </div>
