@@ -91,9 +91,7 @@ export default function PortfolioSection() {
   const isInView = useInView(ref, { once: true, margin: '-80px' });
 
   return (
-    <section id="portfolio" className="relative bg-void py-32 md:py-48 px-6 md:px-10 overflow-hidden">
-      <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse 50% 40% at 20% 80%, rgba(253,82,0,0.05) 0%, transparent 70%)' }} />
-      <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse 60% 40% at 75% 30%, rgba(253,82,0,0.06) 0%, transparent 65%)' }} />
+    <section id="portfolio" className="relative py-32 md:py-48 px-6 md:px-10 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <SectionHeader number="03" label="Portfolio" />
 

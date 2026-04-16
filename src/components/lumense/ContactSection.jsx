@@ -54,9 +54,7 @@ export default function ContactSection() {
   const isInView = useInView(ref, { once: true, margin: '-80px' });
 
   return (
-    <section id="kontakt" className="relative bg-void py-32 md:py-48 px-6 md:px-10 overflow-hidden">
-      <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse 60% 60% at 50% 50%, rgba(253,82,0,0.07) 0%, transparent 70%)' }} />
-      <div className="absolute inset-0 pointer-events-none" style={{ background: 'radial-gradient(ellipse 70% 60% at 80% -10%, rgba(253,82,0,0.10) 0%, transparent 65%)' }} />
+    <section id="kontakt" className="relative py-32 md:py-48 px-6 md:px-10 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <SectionHeader number="05" label="Kontakt" />
 

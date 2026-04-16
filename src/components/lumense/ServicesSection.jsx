@@ -32,7 +32,7 @@ export default function ServicesSection() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <section id="tjanster" className="relative bg-void py-32 md:py-48 px-6 md:px-10">
+    <section id="tjanster" className="relative py-32 md:py-48 px-6 md:px-10">
       <div className="max-w-7xl mx-auto">
         <SectionHeader number="02" label="Tjänster" />
 

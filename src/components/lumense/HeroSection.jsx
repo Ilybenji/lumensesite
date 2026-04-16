@@ -43,22 +43,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-void">
-      {/* Ember glow — subtle radial accent */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background:
-            'radial-gradient(ellipse 60% 40% at 50% 100%, rgba(253,82,0,0.07) 0%, transparent 60%)',
-        }}
-      />
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background:
-            'radial-gradient(ellipse 40% 30% at 80% 20%, rgba(253,82,0,0.04) 0%, transparent 60%)',
-        }}
-      />
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       <ParticleField />
 
       <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-5xl">

@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-void border-t border-vapor/10 py-10 px-6 md:px-10">
+    <footer className="relative border-t border-vapor/10 py-10 px-6 md:px-10 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <img
           src="https://i.ibb.co/cSyYSksW/lumense2.png"

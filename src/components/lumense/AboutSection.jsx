@@ -14,7 +14,7 @@ export default function AboutSection() {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   return (
-    <section id="om-oss" className="relative bg-void py-32 md:py-48 px-6 md:px-10">
+    <section id="om-oss" className="relative py-32 md:py-48 px-6 md:px-10">
       <div className="max-w-7xl mx-auto">
         <SectionHeader number="01" label="Om oss" />
 
